@@ -110,7 +110,7 @@ export default function ContactFormModal({ isOpen, onClose }: ContactFormModalPr
                     You’re Bleeding Time — Let Us Fix It
                     </h2>
                     <p className="text-xs sm:text-sm text-center text-white/80 mb-4 sm:mb-6">
-                    Fill this out and we’ll get back to you within 48 hours with a free custom automation analysis and a ChatGPT super guide.
+                    Fill this out and receive a free ChatGPT super guide.
                     </p>
                     <p className="text-[11px] sm:text-xs text-center text-secondary mb-5 sm:mb-6 font-medium">
                     No costs, no obligations.
@@ -197,7 +197,7 @@ export default function ContactFormModal({ isOpen, onClose }: ContactFormModalPr
                             disabled={isSubmitting}
                             className="w-full bg-secondary py-3 sm:py-3.5 px-6 rounded-lg font-ibm-plex text-white hover:bg-opacity-90 transition-colors text-sm sm:text-base font-medium mt-2 disabled:bg-opacity-50 disabled:cursor-not-allowed"
                         >
-                            {isSubmitting ? 'Submitting...' : 'GET MY FREE AUTOMATION REPORT'}
+                            {isSubmitting ? 'Submitting...' : 'GET THE CHATGPT SUPER GUIDE'}
                         </button>
                     </form>
                 </>
