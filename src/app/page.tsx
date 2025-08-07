@@ -59,10 +59,10 @@ export default function Home() {
       
       {/* Hero Section - Slide 1 */}
       <section id="home" ref={assignRef('home')} className="h-screen snap-start flex flex-col justify-center items-center relative isolate px-4 sm:px-6 lg:px-8 bg-transparent">
-        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-around gap-10 sm:gap-8 md:gap-10 pt-32 sm:pt-36 md:pt-40 lg:pt-16 w-full relative z-10">
+        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-around gap-10 sm:gap-8 md:gap-10 pt-20 sm:pt-24 md:pt-32 lg:pt-16 w-full relative z-10">
           <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl text-center lg:text-left lg:pr-8">
             <motion.h1 
-              className="font-ibm-plex text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 sm:mb-4 text-white leading-snug"
+              className="font-ibm-plex text-4xl sm:text-4xl md:text-5xl lg:text-6xl mb-3 sm:mb-4 text-white leading-snug"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -70,7 +70,7 @@ export default function Home() {
               Supercharge your Business with AI
             </motion.h1>
             <motion.p 
-              className="text-sm sm:text-base md:text-lg lg:text-xl mb-5 sm:mb-6 md:mb-8 text-white/90"
+              className="text-base sm:text-base md:text-lg lg:text-xl mb-5 sm:mb-6 md:mb-8 text-white/90"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -85,7 +85,7 @@ export default function Home() {
             >
               <button
                 onClick={() => setIsContactModalOpen(true)}
-                className="bg-secondary px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-ibm-plex text-white hover:bg-opacity-90 transition-colors text-xs sm:text-sm md:text-base"
+                className="bg-secondary px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-ibm-plex text-white hover:bg-opacity-90 transition-colors text-sm sm:text-sm md:text-base"
               >
                 Get Started
               </button>
@@ -129,7 +129,7 @@ export default function Home() {
 
       {/* Problem Section - Slide 2 (Formerly Features) */}
       <section id="problem" ref={assignRef('problem')} className="h-screen snap-start flex flex-col justify-center items-center bg-transparent px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto py-16 md:py-20 pt-20 md:pt-24 lg:pt-16 w-full">
+        <div className="container mx-auto py-12 md:py-16 pt-16 md:pt-20 lg:pt-16 w-full">
           <motion.h2 
             className="text-3xl sm:text-4xl md:text-5xl font-ibm-plex text-center mb-10 sm:mb-12 md:mb-16 leading-[1.5]"
             initial={{ opacity: 0, y: 20 }}
@@ -159,7 +159,7 @@ export default function Home() {
 
       {/* Operations Dilemma Section - New Slide */}
       <section id="operations-dilemma" ref={assignRef('operations-dilemma')} className="h-screen snap-start flex flex-col justify-center items-center bg-transparent px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto py-16 md:py-20 pt-20 md:pt-24 lg:pt-16 w-full">
+        <div className="container mx-auto py-12 md:py-16 pt-16 md:pt-20 lg:pt-16 w-full">
           <motion.h2 
             className="text-3xl sm:text-4xl md:text-5xl font-ibm-plex text-center mb-10 sm:mb-12 md:mb-16 leading-snug"
             initial={{ opacity: 0, y: 20 }}
@@ -203,7 +203,7 @@ export default function Home() {
 
       {/* Why DAIV.PRO Section - Slide 3 (now 4) */}
       <section id="benefits" ref={assignRef('benefits')} className="h-screen snap-start flex flex-col justify-center items-center bg-transparent px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto py-16 md:py-20 pt-20 md:pt-24 lg:pt-16 w-full">
+        <div className="container mx-auto py-12 md:py-16 pt-16 md:pt-20 lg:pt-16 w-full">
           <motion.h2 
             className="text-3xl sm:text-4xl md:text-5xl font-ibm-plex text-center mb-10 sm:mb-12 md:mb-16 leading-snug"
             initial={{ opacity: 0, y: 20 }}
@@ -262,7 +262,7 @@ export default function Home() {
 
       {/* Get Started Section - Slide 4 */}
       <section id="contact" ref={assignRef('contact')} className="h-screen snap-start flex flex-col justify-center items-center bg-transparent px-4 sm:px-6 lg:px-8">
-        <div className="container mx-auto py-16 md:py-20 pt-20 md:pt-24 lg:pt-16 text-center w-full">
+        <div className="container mx-auto py-12 md:py-16 pt-16 md:pt-20 lg:pt-16 text-center w-full">
           <motion.h2 
             className="text-3xl sm:text-4xl md:text-5xl font-orbitron mb-4 sm:mb-6 md:mb-8 leading-snug"
             initial={{ opacity: 0, y: 20 }}
